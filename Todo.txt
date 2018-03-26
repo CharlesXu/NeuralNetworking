@@ -1,0 +1,40 @@
+TODO
+
+
+Make different optional activation functions
+besides the sigmoid function
+
+implement a structure to take frequency data 
+from a fast fourier transform (or similar) in
+order to make the neural network structure 
+smaller for ECG data.
+
+
+Options for training epochs and stochastic
+gradient descent.
+
+implement linear algebra functions designed for
+low level optimization on ARM archeticture, so 
+that the network can feedforward efficiently on
+small devices.
+
+Other structural options for the neural network
+to make learning faster/more efficient
+
+http://neuralnetworksanddeeplearning.com/chap6.html
+
+In order to make response from ECG data more
+efficient, implement ability to use network 
+more like a recurrent neural network.
+
+https://deeplearning4j.org/lstm.html
+
+If it is possible, implement unsupervised learning on
+a small scale in the code, so that a persons ECG readings
+can develop and grow with them and improve their ability
+to read the ECG data with time.
+
+
+Other potentially good resources:
+
+http://www.deeplearningbook.org/
